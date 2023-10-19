@@ -1,0 +1,87 @@
+body{
+    background-image: url("halloween_pumpkin_dark_126823_1920x1080.jpg");
+    background-size:cover ;
+}   
+.dang-nhap{
+    width: 500px;
+    height: 600px;
+    background-color: rgba(255, 106, 0, 0.83);
+    box-shadow: 0px 8px 8px 0px;
+}
+.phan-dang-nhap{
+    justify-content: center;
+    display: flex;
+    height: 730px;
+    align-items: center;    
+}
+.chu-dang-nhap{
+    text-align: center;
+    margin-top: 50px;
+}
+.form-login{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+}
+input{
+    background-color: rgb(255, 106, 0);
+    height: 38px;
+    font-size: 15px;
+    width: 400px;
+    color: white;
+    border: none;
+    border-bottom:1px solid white ;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+p{
+    display: none;
+    color: rgb(241, 241, 241);
+    font-style: italic;
+    position: absolute;
+}
+h1{
+    color: white;
+    font-size: 28px;
+    margin-top: 120px;
+}
+
+a{
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: rgb(201, 84, 0);
+}
+.dang-ki{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.btn-submit{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 25px;
+}
+.nut-submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}   
+#mat-khau{
+    margin-top: 25px;
+}
+.btn-quay-lai{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 106, 0);
+    border-radius: 25px;
+    border: 0px;
+    margin-top: 30px;
+    margin-left: 60px;
+}

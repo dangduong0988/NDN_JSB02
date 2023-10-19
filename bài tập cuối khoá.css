@@ -1,0 +1,411 @@
+.tai-khoan{
+    height: 32px;
+    width: 240px;
+    display: flex;
+    margin-left: 1000px;
+    position: fixed;
+    right: 25px;
+}
+.dang-ki{
+    background-color: rgb(255, 145, 0);
+    border-radius: 15px;
+    height: 35px;
+    font-size: 19px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    margin-right: 10px;
+    color: black;
+}
+.dang-nhap{
+    background-color:rgb(255, 145, 0);
+    border-radius: 15px;
+    height: 35px;
+    font-size: 19px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    color: black;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center ;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+}
+.dang-nhap:hover{
+    background-color: rgb(191, 71, 2);
+}
+.dang-ki:hover{
+    background-color: rgb(191, 71, 2);
+}
+body{
+    margin: 0;
+}
+i{
+    color: white;
+}
+.icon{
+    margin-left:20px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.nut-menu{
+    margin-left: 20px;
+}
+.gach-thang{
+    color: white;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.phan-gach-thang{
+    margin-left: 15px;  
+}
+.banner > img{
+    width: 100%;
+}
+.main{
+    width:100%;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.phan-pho-bien{
+    width: 1220px;
+}
+.chu-pho-bien{
+    font-size: 21px;
+    color: white;
+    margin: 0px;
+}
+hr{
+    width: 110px;
+    height: 1px;
+    background-color: orange;
+    float: left;
+}
+.anh-phan-pho-bien{
+    width: 210px;
+    height: 170px;
+}
+.chuyen-1-pho-bien{
+    height: 170px;
+    width: 50%;
+}
+.phan-anh-pho-bien{
+    float: left;
+}
+.chu-tieu-de-pho-bien{
+    color: white;
+    font-size: 22px;
+}
+.tieu-de-pho-bien{
+    float: right;
+    width: 350px;
+}
+.nhung-chu-dau-pho-bien{
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.luot-xem-pho-bien{
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.chuyen-2-pho-bien{
+    height: 170px;
+    width: 50%;
+}
+.phan-chuyen-pho-bien{
+    width: 1220px;
+    height: 380px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chuyen-3-pho-bien{
+    height: 170px;
+    width: 50%;
+    margin-top: 36px;
+}
+.chuyen-4-pho-bien{
+    height: 170px;
+    width: 50%;
+    margin-top: 36px;
+}
+.phan-noi-bat{
+    width: 100%;
+    height: 450px;
+    background-color: orange;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.chu-noi-bat{
+    font-size: 21px;
+    margin: 0px;
+}
+.phan-chu-noi-bat{
+    width: 1220px;
+    height: 45px;
+    margin-top: 10px;
+}
+.phan-chuyen-noi-bat{
+    width: 1220px;
+    height: 395px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.chuyen-1-noi-bat{
+    width: 285px;
+    height: 395px;
+}
+.chuyen-2-noi-bat{
+    width: 285px;
+    height: 395px;
+}
+.chuyen-3-noi-bat{
+    width: 285px;
+    height: 395px;
+}
+.chuyen-4-noi-bat{
+    width: 285px;
+    height: 395px;
+}
+.anh-noi-bat{
+    width: 285px;
+    height: 210px;
+}
+.chu-tieu-de-noi-bat{
+    color: black;
+    font-size: 22px;
+}
+.nhung-chu-dau-noi-bat{
+    color: black;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.luot-xem-noi-bat{
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.container{
+    width: 1220px;
+    display: flex;
+}
+.phan-danh-cho-ban{
+    width: 750px;
+}
+.phan-chu-danh-cho-ban{
+    width: 750px;
+    margin-top: 10px;
+}
+.chu-danh-cho-ban{
+    color: white;
+    margin: 0px;
+}
+.phan-chuyen-danh-cho-ban{
+    width: 750px;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+}
+.chuyen-1-danh-cho-ban{
+    width: 700px;
+    height: 170px;
+    margin-top: 25px;
+}
+.tieu-de-danh-cho-ban{
+    float: right;
+    width: 450px;
+}
+.chu-tieu-de-danh-cho-ban{
+    color: white;
+    font-size: 22px;
+    margin-top: 25px;
+}
+.nhung-chu-dau-danh-cho-ban{
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.luot-xem-danh-cho-ban{
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.phan-anh-danh-cho-ban{
+    float: left;
+}
+.anh-danh-cho-ban{
+    width: 230px;
+    height: 170px;
+}
+.chuyen-2-danh-cho-ban{
+    width: 700px;
+    height: 170px;
+    margin-top: 60px;
+}
+.chuyen-3-danh-cho-ban{
+    width: 700px;
+    height: 170px;
+    margin-top: 60px;
+}
+.chuyen-4-danh-cho-ban{
+    width: 700px;
+    height: 170px;
+    margin-top: 60px;
+}
+.chuyen-5-danh-cho-ban{
+    width: 700px;
+    height: 170px;
+    margin-top: 60px;
+}
+.chuyen-6-danh-cho-ban{
+    width: 700px;
+    height: 170px;
+    margin-top: 60px;
+}
+.chu-de-name{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.chu-chu-de{
+    color: white;
+}
+.ten-chu-de{
+    border: 1px solid orange;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.phan-chu-de{
+    display: flex;
+    flex-wrap: wrap;
+}
+.chu-de{
+    margin-top: 100px;
+}
+.footer{
+    background-color: orange;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.phan-chu-about-us{
+    width: 1220px;
+    height: 80px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.thong-tin{
+    width: 1220px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+.cong-ti{
+    width: 330px;
+}
+.cong-ti-co-phan{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 40px;
+}
+.tn-nd{
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 5px;
+}
+.lien-he{
+    width: 330px;
+}
+.lien-he-hop-tac{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 40px;
+}
+.email{
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 5px;
+}
+.number{
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 5px;
+}
+.phan-copyright{
+    width: 330px;
+}
+.copyright{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 40px;
+}
+.address{
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 5px;
+}
+iframe{
+    width: 240px;
+    height: auto;
+}
+.chu-de-chuyen-pho-bien{
+    color: white;
+}
+.chu-de-chuyen-pho-bien:hover{
+    font-weight: bold;
+}
+.chu-de-chuyen-noi-bat{
+    color: black;
+}
+.chu-de-chuyen-noi-bat:hover{
+    font-weight: bold;
+}
+.chu-de-chuyen-danh-cho-ban{
+    color: white;
+}
+.chu-de-chuyen-danh-cho-ban:hover{
+    font-weight: bold;
+}
+.nhay-len-dau{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(0, 140, 255);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 1600px; */
+    /* margin-top: 100px; */
+    right: 15px;
+    bottom: 15px;
+}
+
+ 
